@@ -5,6 +5,9 @@
 		</div>
 		<div id="file_action_panel"></div>
 		<div class="notCreatable notPublic hidden">
+			<svg style="width:15px;height:15px" viewBox="0 0 24 24">
+				<path fill="currentColor" d="M12,2L1,21H23M12,6L19.53,19H4.47M11,10V14H13V10M11,16V18H13V16" />
+			</svg>
 			<?php p($l->t('You don’t have permission to upload or create files here'))?>
 		</div>
 	<?php /* Note: the template attributes are here only for the public page. These are normally loaded
